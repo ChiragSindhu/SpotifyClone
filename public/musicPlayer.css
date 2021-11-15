@@ -1,0 +1,191 @@
+.musicComponent{
+    position: fixed;
+    width: 100%;
+    height: 5.5rem;
+    bottom: 0px;
+    background-color: rgb(17, 17, 17);
+    border-top: 1px rgb(32, 32, 32) solid;
+    box-shadow: 2px 2px 5px rgb(46, 46, 46);
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#middlePart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width:38%;
+}
+
+#controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#playIcon{
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin: 0px 13px 0px 13px;
+    transition: transform 0.1s;
+}
+
+#playIcon:active{
+    transform: scale(0.9);
+}
+
+#nextMusicIcon{
+    cursor: pointer;
+    opacity: 0.7;
+
+    transition: opacity 0.3s;
+}
+
+#prevMusicIcon{
+    transform: rotateY(180deg);
+    cursor: pointer;
+    opacity: 0.7;
+
+    transition: opacity 0.3s;
+}
+
+#nextMusicIcon:hover {
+    opacity: 1;
+}
+
+#prevMusicIcon:hover {
+    opacity: 1;
+}
+
+#middleLowerPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#songCompleted,
+#songDuration{
+    color: rgb(207, 207, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin: 16px 2px 2px 2px;
+}
+
+#progressBar{
+    height: 4px;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    border-radius: 40px;
+
+    margin:20px 5px 5px 5px;
+    position: relative;
+
+    cursor: pointer;
+}
+
+#valueBar{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(163, 163, 163);
+    border-radius:15px;
+    text-align: right;
+    cursor: pointer;
+}
+
+#valuePoint{
+    position: absolute;
+    top: -2.7px;
+    left:0%;
+    width:11px;
+    height:10px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+}
+
+#reactHowler{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+#musicLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+    width:30%;
+
+    margin: 10px 10px 10px 15px;
+}
+
+#songDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 0px 0px 15px;
+}
+
+#songNamePlayer{
+    color:white;
+    font-family: 'Inconsolata',monospace;
+    font-size: 18px;
+}
+
+#songArtistPlayer {
+    color:rgb(155, 155, 155);
+    font-family: 'Inconsolata',monospace;
+    font-size: 13px;
+}
+
+#musicRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+    width:30%;
+
+    margin: 10px 15px 10px 10px;
+}
+
+#progressBarVolume {
+    height: 4px;
+    width: 30%;
+    background-color: rgb(70, 70, 70);
+    border-radius: 40px;
+
+    margin: 0px 0px 0px 5px;
+    position: relative;
+
+    cursor: pointer;
+}
+
+#valueBarVolume {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(163, 163, 163);
+    border-radius: 15px;
+    text-align: right;
+    cursor: pointer;
+}
+
+#valuePointVolume {
+    position: absolute;
+    top: -2px;
+    left: calc(50% - 6px);
+    width: 9.8px;
+    height: 9px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+}

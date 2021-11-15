@@ -1,0 +1,29 @@
+#searchtxt{
+    width: 20%;
+    margin: 17px 17px 17px 35px;
+    padding: 12px 12px 12px 50px;
+
+    border-radius: 30px;
+    border:none;
+
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    outline: none;
+}
+
+#searchIcon {
+    position: absolute;
+    top:26px;
+    left: 46px;
+
+    filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg) brightness(119%) contrast(115%);
+}
+
+#searchedSongs {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 0px;
+}
