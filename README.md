@@ -1,14 +1,12 @@
-# Spotify-Clone
-https://spotify-d8fce.web.app/
-go to https://chirag-music.glitch.me/
-Hang on It will take a minute.
-and listen music
+<h1 align="center">Spotify Clone </h1>
 
-its spotify clone
-build with ReactJS/CSS/HTML
+<h3 align="center"><b> Live : https://spotify-d8fce.web.app/ </b></h3>
 
-support of Firebase
+<a href="https://spotify-d8fce.web.app/" alt="Spotify"><img src="repository-open-graph-template.png"></a>
+
+## Introduction
+This project is a simplified version of <a href="https://open.spotify.com/" target="_blank">Spotify Player</a> build on Top of <a href="https://reactjs.org/" target="_blank"><b>ReactJS</b></a>
 
 
-sometimes firebase will not allow access to storage(where songs are stored) because of their bandwidth type thing.
-if song image is appering to you that mean u can play the song.
+
+
