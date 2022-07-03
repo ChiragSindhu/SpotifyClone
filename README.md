@@ -9,6 +9,17 @@
 ## Introduction
 This project is a simplified version of <a href="https://open.spotify.com/" target="_blank">Spotify Player</a> build on Top of <a href="https://reactjs.org/" target="_blank"><b>ReactJS.</b></a>
 
+## Key Feature
+
+- Play bufferless music any time.
+
+- Search your favourite music.
+<h3 align="center"><img src="Untitled.png"></h3>
+
+- Advance music player.
+
+- Add you favourite music to storage.
+
 
 ## How To Use
 
@@ -37,9 +48,7 @@ $ npm start
 <b>STEP 4:</b> Select <b>CLOUD MESSAGING</b> tab
 <h3 align="left"><img src="https://i.stack.imgur.com/m0t41.png" width="40%"></h3>
 
-<b>STEP 5:</b> Change your API Key and Project Info from "src/index.jsx" file. [Open to Contribute]
-<h3 align="left"><img src="Untitled.png" width="40%"></h3>
-
+<b>STEP 5:</b> Change your API Key and Project Info from <b>"src/index.jsx"</b> file. [Open to Contribute]
 
 ## Special thanks to
 
