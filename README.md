@@ -35,6 +35,8 @@ $ npm start
 
 - <a href="https://nodejs.org/en/" target="_blank" ><b>NodeJS</b></a>
 
+<a href="https://fonts.google.com" target="_blank" ><img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" width="17%"></a>
+
 ## License
 MIT
 
