@@ -1,3 +1,5 @@
+<h3 align="center"><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" width="50%"></h3>
+
 <h1 align="center">Spotify Clone </h1>
 
 <h3 align="center"><b> Live : https://spotify-d8fce.web.app/ </b></h3>
