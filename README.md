@@ -1,3 +1,5 @@
+<h3 align="center"></h3>
+
 <h1 align="center">Spotify Clone </h1>
 
 <h3 align="center"><b> Live : https://spotify-d8fce.web.app/ </b></h3>
