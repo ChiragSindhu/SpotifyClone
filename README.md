@@ -25,6 +25,21 @@ $ npm install
 $ npm start
 ```
 
+## Note [How to get your Firebase API KEY]
+
+<b>STEP 1:</b> Go to <a href="https://console.firebase.google.com/u/0/" target="_blank" ><b>Firebase Console</b></a>
+
+<b>STEP 2:</b> Select your Project
+
+<b>STEP 3:</b> Click on Settings icon and select Project Settings
+<h3 align="left"><img src="https://i.stack.imgur.com/1LneH.png" width="40%"></h3>
+
+<b>STEP 4:</b> Select <b>CLOUD MESSAGING</b> tab
+<h3 align="left"><img src="https://i.stack.imgur.com/m0t41.png" width="40%"></h3>
+
+<b>STEP 5:</b> Change your API Key src/index.jsx file.
+
+
 ## Special thanks to
 
 - <a href="https://firebase.google.com/" target="_blank" ><b>Google Firebase</b></a>
