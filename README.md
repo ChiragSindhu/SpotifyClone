@@ -25,6 +25,12 @@ $ npm install
 $ npm start
 ```
 
+## Special thanks to
+
+- <a href="https://reactjs.org/" target="_blank"><b>ReactJS</b></a>
+
+- <a href="https://www.npmjs.com/package/react-howler" target="_blank"><b>React Howler</b></a>
+
 ## License
 MIT
 
