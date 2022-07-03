@@ -37,7 +37,8 @@ $ npm start
 <b>STEP 4:</b> Select <b>CLOUD MESSAGING</b> tab
 <h3 align="left"><img src="https://i.stack.imgur.com/m0t41.png" width="40%"></h3>
 
-<b>STEP 5:</b> Change your API Key src/index.jsx file.
+<b>STEP 5:</b> Change your API Key and Project Info from "src/index.jsx" file.
+<h3 align="left"><img src="Untitled.png" width="40%"></h3>
 
 
 ## Special thanks to
